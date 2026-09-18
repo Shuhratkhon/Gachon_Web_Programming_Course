@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practise 8</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      background-color: #f8fafc;
+      color: #1e293b;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 8%;
+      background-color: #1e293b;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .hero {
+      padding: 90px 8%;
+      text-align: center;
+      background-color: #ecfdf5;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #15803d;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      color: #64748b;
+      margin-bottom: 24px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+      background-color: #15803d;
+      color: white;
+      text-decoration: none;
+    }
+
+    .skills {
+      display: flex;
+      gap: 20px;
+      padding: 50px 8%;
+    }
+
+    .skill {
+      flex: 1;
+      padding: 24px;
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .skill h2 {
+      margin-bottom: 8px;
+      color: #0369a1;
+    }
+
+    .skill p {
+      color: #64748b;
+    }
+
+    footer {
+      padding: 24px;
+      text-align: center;
+      background-color: #1e293b;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">My Profile</a>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Skills</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Hello, I'm Alex</h1>
+    <p>I'm learning web development and building projects with HTML and CSS.</p>
+    <a class="button" href="#">View My Skills</a>
+  </section>
+
+  <section class="skills">
+    <div class="skill">
+      <h2>HTML</h2>
+      <p>Building clear page structures with semantic elements.</p>
+    </div>
+    <div class="skill">
+      <h2>CSS</h2>
+      <p>Creating layouts, colours, spacing, and responsive designs.</p>
+    </div>
+    <div class="skill">
+      <h2>Flexbox</h2>
+      <p>Arranging page components with flexible layouts.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>2026 My Profile</p>
+  </footer>
+</body>
+</html>
